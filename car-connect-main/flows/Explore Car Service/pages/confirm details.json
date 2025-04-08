@@ -1,0 +1,63 @@
+{
+  "name": "8e0ca5d0-668d-4e72-b5fd-63fe47292760",
+  "displayName": "confirm details",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Are You Confirm Your details\r\nYour Service is \r\nYour date is \r\nyour Time" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "YES"
+          }, {
+            "text": "NO"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "YES",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank You !!\nYour service Is Booked." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "a905d357-5f11-47c4-bcd8-b20c0b7aabc6"
+  }, {
+    "intent": "NO",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "service type",
+    "name": "58d8c209-0a09-405c-92c5-a9d5312f0220"
+  } ]
+}

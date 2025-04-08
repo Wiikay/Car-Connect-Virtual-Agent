@@ -1,0 +1,45 @@
+{
+  "name": "0d6de563-e5a6-400f-8a4b-4da5bd87a1e9",
+  "displayName": "select dealer ",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Sales Showroom"
+          }, {
+            "text": "Service Workshop"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Service Workshop",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Service Workshop",
+    "name": "d6fac1dd-2cd5-4ccc-a05a-12568dc916d5"
+  }, {
+    "intent": "Sales Showroom",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Sales Showroom",
+    "name": "dd363200-89af-44cd-bab6-75510d17ba69"
+  } ]
+}

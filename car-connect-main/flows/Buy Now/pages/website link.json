@@ -1,0 +1,43 @@
+{
+  "name": "0d52e065-5b03-4929-8d37-a191f369c5e1",
+  "displayName": "website link",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Buy Your Dream Car " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://www.tatamotors.com/"
+            },
+            "image": {
+              "rawUrl": "https://imgd.aeplcdn.com/600x600/ec/F2/68/12925/img/orig/Tata-Logo-26449.jpg?t=124826933\u0026t=124826933"
+            },
+            "subtitle": "Tata cars",
+            "title": "Tata cars website",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "5393569a-4716-47fa-bde5-65304d6cfacb"
+  } ]
+}

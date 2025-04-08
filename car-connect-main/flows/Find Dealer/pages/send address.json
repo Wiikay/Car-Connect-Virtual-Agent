@@ -1,0 +1,35 @@
+{
+  "name": "51b6e5af-5435-4003-8988-0f9158a851d5",
+  "displayName": "send address",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.booking" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/4c116d0e-21b7-42d6-bc03-d090846c4e5c",
+      "outputParameter": "$request.generative.booking"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Any Think Else",
+    "name": "d287a864-4e56-4eda-a2a5-ea36e640c641"
+  } ]
+}

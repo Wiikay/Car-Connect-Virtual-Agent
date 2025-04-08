@@ -1,0 +1,15 @@
+{
+  "name": "2d816812-7274-4782-bd9c-3c48723f717c",
+  "displayName": "connect with agent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Connect With Agent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ask for rating",
+    "name": "32737038-5b83-4aec-af24-f8445e3c4845"
+  } ]
+}

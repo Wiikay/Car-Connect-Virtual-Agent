@@ -1,0 +1,94 @@
+{
+  "name": "842c9a12-d47d-4a74-bdec-19df412e11c3",
+  "displayName": "choose device",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Ios"
+          }, {
+            "text": "Android"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Android",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "play store link - \u003ca href=\"https://www.playstore.com/in/app-store/\"\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://www.playstore.com"
+            },
+            "title": "Play store link",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "271fd69f-2dc6-4bb0-b22d-15c16bb133a4"
+  }, {
+    "intent": "IOS",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Apple store link - \u003ca href= https://www.apple.com/in/app-store/\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://www.apple.com"
+            },
+            "subtitle": "Info item subtitle",
+            "title": "Apple store",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "69060715-e519-4fa6-aa0d-50715a511c6d"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Generate a unique booking number and display the message your service is booked and booking number. Don't show any other code or anything. Display only booked message and Your Booking Number equal to random number , then thank you message ",
+    "languageCode": "en"
+  } ]
+}

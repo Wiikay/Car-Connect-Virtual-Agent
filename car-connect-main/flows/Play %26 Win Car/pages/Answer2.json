@@ -1,0 +1,24 @@
+{
+  "name": "588ec36d-7838-4dcc-b6be-2dd0feeb8dbb",
+  "displayName": "Answer2",
+  "form": {
+    "parameters": [ {
+      "displayName": "Ans2",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "coupon ",
+    "name": "1b20655b-98e6-4b9c-9f82-c2b2725312ca"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "quarterly",
+    "synonyms": [ "3", "3 months", "90 days", "every three months", "once a quarter", "periodic", "quarter year", "quarterly", "Quarterly", "three-month period" ],
+    "languageCode": "en"
+  }, {
+    "value": "Yearly",
+    "synonyms": [ "1 year", "12 months", "12-month", "365 days", "annual", "annually", "every year", "per year", "yearlong", "Yearly" ],
+    "languageCode": "en"
+  }, {
+    "value": "Monthly",
+    "synonyms": [ "1 month", "30 days", "each month", "every month", "Monthly", "monthly basis", "monthly subscription", "per month", "recurring monthly" ],
+    "languageCode": "en"
+  } ]
+}

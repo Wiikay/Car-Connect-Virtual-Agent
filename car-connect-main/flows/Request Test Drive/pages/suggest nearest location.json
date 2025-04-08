@@ -1,0 +1,33 @@
+{
+  "name": "764c5373-5814-4b47-ae48-b2dd819fe476",
+  "displayName": "suggest nearest location",
+  "form": {
+    "parameters": [ {
+      "displayName": "get_location",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "car-connect",
+      "tag": "address",
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Address",
+    "name": "f5ab2389-4294-4983-879f-7f83898693bc"
+  } ]
+}

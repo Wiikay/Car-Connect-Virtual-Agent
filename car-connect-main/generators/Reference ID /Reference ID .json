@@ -1,0 +1,13 @@
+{
+  "name": "b50a2f15-d359-4d36-8ff5-a385b2b4cd48",
+  "displayName": "Reference ID ",
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 3508,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-lite-001"
+  }
+}

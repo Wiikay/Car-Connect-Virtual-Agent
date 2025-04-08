@@ -1,0 +1,42 @@
+{
+  "name": "4920c4f7-663e-41b9-8d2e-db384b0e6a7c",
+  "displayName": "coupon ",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.coupon" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/aec2862c-56d9-44a5-83c7-45839e037b0f",
+      "inputParameters": [ {
+        "key": "Ans1",
+        "value": "$session.params.Ans1"
+      }, {
+        "key": "Ans2",
+        "value": "$session.params.Ans2"
+      } ],
+      "outputParameter": "$request.generative.coupon"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "True",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Any Think Else",
+    "name": "0077d1d0-6f0c-4926-8e09-3279311e573a"
+  } ]
+}

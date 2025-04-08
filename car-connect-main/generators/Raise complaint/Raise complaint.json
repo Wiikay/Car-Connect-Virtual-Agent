@@ -1,0 +1,13 @@
+{
+  "name": "dcf83cfb-e2f6-480a-b314-489c9adf5d51",
+  "displayName": "Raise complaint",
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 3888,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-lite-001"
+  }
+}

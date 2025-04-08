@@ -1,0 +1,50 @@
+{
+  "name": "bda69927-35aa-48ee-9d99-882e1bf3e77b",
+  "displayName": "Thank You",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for choosing Us.... \nDo You want any thing else ?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "YES"
+          }, {
+            "text": "NO"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "YES",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "9d80a273-5176-4da8-a760-e0b0b5e9d54b"
+  }, {
+    "intent": "NO",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "8bc20c45-5b21-45be-85b1-b3ddaa68cf2a"
+  } ]
+}

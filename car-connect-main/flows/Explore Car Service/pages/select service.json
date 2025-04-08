@@ -1,0 +1,88 @@
+{
+  "name": "994ca5db-cd18-499d-b151-87f0158ae108",
+  "displayName": "select service",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Book A Service"
+          }, {
+            "text": "Service Cost Calculator"
+          }, {
+            "text": "Warrenty"
+          }, {
+            "text": "Care"
+          }, {
+            "text": "General Service Queries"
+          }, {
+            "text": "Shield of Trust"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Book a Service",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "service type",
+    "name": "5d14c094-b4ce-4fa1-9dd7-13fc1bd15ace"
+  }, {
+    "intent": "Warranty",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Warrenty",
+    "name": "473eab88-2683-46d0-b938-5bfca94a06f2"
+  }, {
+    "intent": "Care",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "care",
+    "name": "b3177f45-de8c-47f8-a59b-e873bfe97d92"
+  }, {
+    "intent": "Shield of Trust",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Shield of Trust",
+    "name": "70424429-aa7c-4605-ab3e-ed5a22636649"
+  }, {
+    "intent": "General Queries",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "General Queries",
+    "name": "799de9ec-b57b-4b6c-99ae-e5ae761a2e75"
+  }, {
+    "intent": "Service cost calculator",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Service cost calculator",
+    "name": "82551d9d-3db4-4071-877f-5af24e160c36"
+  } ]
+}

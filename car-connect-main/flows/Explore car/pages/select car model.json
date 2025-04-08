@@ -1,0 +1,312 @@
+{
+  "name": "8e74f6cc-bbd6-4c2d-bf4e-aa877b5060fe",
+  "displayName": "select car model",
+  "form": {
+    "parameters": [ {
+      "displayName": "car_model",
+      "required": true,
+      "entityType": "@model",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "advancedSettings": {
+            "playbackInterruptionSettings": {
+            
+            },
+            "dtmfSettings": {
+              "useSystemEntityRule": false
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "select a car model-\nTata Nexon\nTata Harrier\nTata Safari\nTata Altroz\nTata Tiago\nTata Tigor\nTata Punch\nTata Curvv\n" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.car_model = \"Tata Nexon\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://www.carwale.com/hi/videos/tata-nexon-ev-red-dark-edition-walkaround-many-new-features-192921/"
+            },
+            "image": {
+              "rawUrl": "https://cdni.autocarindia.com/Utils/ImageResizerV2.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Tata-Nexon-130120251211.jpg\u0026w=750\u0026h=500\u0026q=90\u0026c=1"
+            },
+            "subtitle": "tata nexon",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "8070d248-3ea0-4c09-a5e5-4359dfc80568"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Harrier\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/FYOzVWrwLoE?si=aanvAH8VHgroyCle"
+            },
+            "image": {
+              "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8dtoDp_JauhnOV2TzNkhTscPsIO-jR8FLdg\u0026s"
+            },
+            "subtitle": "Tata Harrier",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "f979ca4c-d103-4c40-b379-14a0448161f0"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Safari\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/OXpGg0aqbNU?si=8tthRqPMuSbvtXSO"
+            },
+            "image": {
+              "rawUrl": "https://s7ap1.scene7.com/is/image/tatamotorsperf/City-6-5?$B-1228-696-S$\u0026fit=crop\u0026fmt=webp"
+            },
+            "subtitle": "Tata Safari",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "d734299b-9f3a-4a48-a5f8-3d77c2df7dc8"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Altroz\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/bRLj9ov4PL0?si=BnbREtpmRQ9eBgYF"
+            },
+            "image": {
+              "rawUrl": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/32597/tata-altroz-right-front-three-quarter20.jpeg?q=80\u0026q=80"
+            },
+            "subtitle": "Tata Altroz",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "35faabbc-5e18-4628-8a10-8301d3d901e8"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Tiago\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/AAlT4vMu9zA?si=PFgMNrqmps7eMpCO"
+            },
+            "image": {
+              "rawUrl": "https://imgd.aeplcdn.com/664x374/n/cw/ec/39345/tiago-exterior-right-front-three-quarter-31.jpeg?isig=0\u0026q=80"
+            },
+            "subtitle": "Tata Tiago",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "d14875ed-edbc-4520-bba9-0a6ec0bc0858"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Tigor\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/MeHysdNnI1E?si=4yCPvREjhxkW4t4I"
+            },
+            "image": {
+              "rawUrl": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/41160/tigor-exterior-right-front-three-quarter-21.jpeg?isig=0\u0026q=80\u0026q=80"
+            },
+            "subtitle": "Tata Tigor",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "6cdff8ee-5b9f-44b8-bd04-8be3df597c07"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Punch\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/v--L_mDLRfg?si=ymCGsxOEZbZoui1K"
+            },
+            "image": {
+              "rawUrl": "https://www.livemint.com/lm-img/img/2024/10/04/600x338/camoedition_1728045253211_1728045261296.webp"
+            },
+            "subtitle": "Tata Punch",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "9e379c6d-d7d4-42c5-b49b-3bd01af8c3ac"
+  }, {
+    "condition": "$session.params.car_model = \"Tata Curvv\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://youtu.be/YYHrxOXsKEk?si=FTy-VtZRt--eER9O"
+            },
+            "image": {
+              "rawUrl": "https://www.google.com/url?sa=i\u0026url=https%3A%2F%2Fwww.v3cars.com%2Ftata-cars%2Fcurvv%2Foffers-discounts\u0026psig=AOvVaw3hvK8IrCfxgGOVSNHVGEXW\u0026ust=1742974661349000\u0026source=images\u0026cd=vfe\u0026opi=89978449\u0026ved=0CBQQjRxqFwoTCMDYrPncpIwDFQAAAAAdAAAAABAE"
+            },
+            "subtitle": "Tata Curvv",
+            "title": "tata car model",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "car_model",
+        "value": null
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "bc8ca1dd-9190-4282-9b51-afe588dc8f59"
+  } ]
+}

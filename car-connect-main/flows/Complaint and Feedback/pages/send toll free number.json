@@ -1,0 +1,35 @@
+{
+  "name": "8f7a319f-3ac6-442f-ab41-832c164b188c",
+  "displayName": "send toll free number",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.complaint" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/dcf83cfb-e2f6-480a-b314-489c9adf5d51",
+      "outputParameter": "$request.generative.complaint"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Any Think Else",
+    "name": "051340f9-a9ff-4745-ac1b-c09d6f7e7307"
+  } ]
+}

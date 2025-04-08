@@ -1,0 +1,13 @@
+{
+  "name": "9e9c3fc3-2ed1-4c9c-a11a-fa7b15bbf7c9",
+  "displayName": "Rating ",
+  "modelParameter": {
+    "temperature": 0.1,
+    "maxDecodeSteps": 4938,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-lite-001"
+  }
+}

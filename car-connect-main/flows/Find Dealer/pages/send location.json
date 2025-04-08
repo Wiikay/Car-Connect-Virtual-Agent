@@ -1,0 +1,44 @@
+{
+  "name": "9fbc5b2a-c765-48a5-bff0-48e878b45266",
+  "displayName": "send location",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.refrenceid" ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "car-connect",
+    "tag": "address",
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/b50a2f15-d359-4d36-8ff5-a385b2b4cd48",
+      "outputParameter": "$request.generative.refrenceid"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Any Think Else",
+    "name": "17a48f7e-c6ab-41ac-8d73-dd5be9dfdcc7"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Explore car",
+    "name": "fe42ee39-06e1-4c15-bb2b-30560529305c"
+  } ]
+}

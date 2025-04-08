@@ -1,0 +1,10 @@
+{
+  "name": "501bbb34-e4ae-4d4b-b127-e27fbef1d8e7",
+  "displayName": "Raise a Complain",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

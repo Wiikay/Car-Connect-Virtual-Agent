@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "use $car_model, $city, $fuel_type, $service, $service_period this 5 parameter and calculate total service cost and labour cost in detail and final show the total cost. You are Financial expert give proper price and generate a bill , don't show scenarios",
+    "languageCode": "en"
+  } ]
+}

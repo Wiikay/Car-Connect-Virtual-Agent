@@ -1,0 +1,68 @@
+{
+  "name": "496183f6-b4ad-4438-b02a-6222f5e2a654",
+  "displayName": "service type",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Select a service\r\n1] Regular Maintenance \r\n2] Repair\r\n3] Diagnostic Check\r\n4] Specialized service\r\n" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Regular Maintenance"
+          }, {
+            "text": "Repair"
+          }, {
+            "text": "Diagnostic Check"
+          }, {
+            "text": "Specialized service"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Regular Maintenance",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ask vehicle details",
+    "name": "931eb4d3-0df0-4864-afe0-86a670a22261"
+  }, {
+    "intent": "Repair",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ask vehicle details",
+    "name": "dc4f7f12-ada1-4518-80bb-2903ad141a7e"
+  }, {
+    "intent": "Diagnostic Check",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ask vehicle details",
+    "name": "5d750e8d-4a86-4eae-aa28-6e48c7545d04"
+  }, {
+    "intent": "Specialized Service",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ask vehicle details",
+    "name": "357da489-24a6-45ac-9f86-a5bf3615855f"
+  } ]
+}

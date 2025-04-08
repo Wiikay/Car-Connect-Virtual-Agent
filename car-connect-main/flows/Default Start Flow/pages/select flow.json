@@ -1,0 +1,107 @@
+{
+  "name": "af787e6b-2158-4593-8138-a911139d931e",
+  "displayName": "select flow",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "My App"
+          }, {
+            "text": "Play and Win Car"
+          }, {
+            "text": "Explore Cars"
+          }, {
+            "text": "Request Test Drive"
+          }, {
+            "text": "Buy Now"
+          }, {
+            "text": "Explore Car Service"
+          }, {
+            "text": "Find Dealer"
+          }, {
+            "text": "Complaint and Feedback"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "My App",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "My App",
+    "name": "19449138-6dd7-4280-b90b-50ca7627b191"
+  }, {
+    "intent": "Play \u0026 Win Car",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Play \u0026 Win Car",
+    "name": "94da0124-b965-4cbb-bde5-736316d50872"
+  }, {
+    "intent": "Explore car",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Explore car",
+    "name": "6fcf20e0-6bca-4fb2-b238-f680ef20cd44"
+  }, {
+    "intent": "Request Test Drive",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Request Test Drive",
+    "name": "063ee727-cd0c-4339-8b72-be512fd88854"
+  }, {
+    "intent": "Buy Now",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Buy Now",
+    "name": "62106ac4-fc58-432c-8c64-fa7cbd21ff10"
+  }, {
+    "intent": "Explore Car Service",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Explore Car Service",
+    "name": "5135e8cd-fd52-4dff-9f15-d955d7a989e1"
+  }, {
+    "intent": "Find Dealer",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Find Dealer",
+    "name": "f2fd44e4-3dea-4b78-a774-32a5a1425204"
+  }, {
+    "intent": "Complaint and Feedback",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Complaint and Feedback",
+    "name": "77baedfc-0fce-4ed8-8de8-6fbb2b6ade04"
+  } ]
+}

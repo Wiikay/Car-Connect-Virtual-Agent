@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Tata Safari",
+    "synonyms": [ "safari", "Tata Safari", "Tata Safari Diesel", "Tata Safari Petrol", "Tata Safari SUV", "Safari" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Harrier",
+    "synonyms": [ "harrier", "Harrier", "Tata Harrier", "Tata Harrier Diesel", "Tata Harrier Petrol", "Tata Harrier SUV" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Nexon",
+    "synonyms": [ " Nexon", "nexon", "Tata Nexon", "Tata Nexon Diesel", "Tata Nexon EV", "Tata Nexon Petrol" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Curvv",
+    "synonyms": [ "curvv", "Curvv", "Tata Curvv", "Tata Curvv Concept", "Tata Curvv Coupe", "Tata Curvv EV" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Punch",
+    "synonyms": [ "punch", "Punch", "Tata Punch", "Tata Punch Adventure Edition", "Tata Punch iCNG", "Tata Punch Pure" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Tigor",
+    "synonyms": [ "Tata Tigor", "Tata Tigor EV", "Tata Tigor iCNG", "Tata Tigor XZ+", "tigor", "Tigor" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Tiago",
+    "synonyms": [ "Tata Tiago", "Tata Tiago iCNG", "Tata Tiago NRG", "Tata Tiago XZ+", "tiago", "Tiago" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tata Altroz",
+    "synonyms": [ "altroz", "Altroz", "Tata Altroz", "Tata Altroz DCA", "Tata Altroz iTurbo", "Tata Altroz Turbo" ],
+    "languageCode": "en"
+  } ]
+}

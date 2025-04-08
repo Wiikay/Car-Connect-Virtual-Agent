@@ -1,0 +1,11 @@
+{
+  "name": "b72218e8-7868-485a-931a-1210df73dbc2",
+  "displayName": "car-connect",
+  "genericWebService": {
+    "uri": "https://car-connect-907971469140.us-central1.run.app",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

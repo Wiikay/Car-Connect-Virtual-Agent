@@ -1,0 +1,67 @@
+{
+  "name": "368958fe-a92c-42ff-8ebd-a2e7de755471",
+  "displayName": "select section",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Raise a Complain"
+          }, {
+            "text": "Connect With Agent"
+          }, {
+            "text": "Ask for Rating"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Ask for Rating",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ask for rating",
+    "name": "1bf90080-1a7e-41df-9ebb-838765d74709"
+  }, {
+    "intent": "Connect With Agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This call connected with live agent........." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "connect with agent",
+    "name": "c39a89fb-1990-4e1e-98b2-f7361ad5c52c"
+  }, {
+    "intent": "Raise a Complain",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "send toll free number",
+    "name": "212cf355-d9d9-4390-a99c-a19e0d334550"
+  } ]
+}

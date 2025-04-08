@@ -1,0 +1,13 @@
+{
+  "name": "4c116d0e-21b7-42d6-bc03-d090846c4e5c",
+  "displayName": "Booking Number ",
+  "modelParameter": {
+    "temperature": 0.1,
+    "maxDecodeSteps": 5497,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-lite-001"
+  }
+}

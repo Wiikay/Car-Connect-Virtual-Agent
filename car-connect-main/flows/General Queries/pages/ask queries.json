@@ -1,0 +1,29 @@
+{
+  "name": "f0d8082d-2461-40d4-842d-c95e76ad5aaf",
+  "displayName": "ask queries",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "FAQ",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "f076e412-e4a5-48f6-9cd7-0b25585882fa"
+  }, {
+    "intent": "agent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "ed739e5d-163a-40aa-b60f-20dd1d254ca1"
+  } ]
+}

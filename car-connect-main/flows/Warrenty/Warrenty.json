@@ -1,0 +1,73 @@
+{
+  "name": "859bbc3a-bc99-4f57-8a0d-7ac8e5eb7b5f",
+  "displayName": "Warrenty",
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can find comprehensive vehicle warranty coverage details for Tata Motors cars on their website, specifically at" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "anchor": {
+              "href": "https://cars.tatamotors.com/service/owners/information-on-warrant.html"
+            },
+            "image": {
+              "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo6Wyv4bxG_gQw3J4-67JoACdn7Ow3kZD4gHC7b3KeDIcHuVjHzth3xjC6gClX6ErdlzY\u0026usqp=CAU"
+            },
+            "subtitle": "Tata motor Warrenty link",
+            "title": "Tata motors",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Any Think Else",
+    "name": "4f88aa35-230f-4765-a3fb-efdd0218bff6"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d41d58ee-45c8-4057-aedd-6a8f376676d0"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "96e2aff9-abe4-434c-a763-5ac02f778acc"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "6dfb3716-8f4e-4705-8cb4-5875308f4ec0",
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "aec2862c-56d9-44a5-83c7-45839e037b0f",
+  "displayName": "give coupon code",
+  "placeholders": [ {
+    "id": "Ans1",
+    "name": "Ans1"
+  }, {
+    "id": "Ans2",
+    "name": "Ans2"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-001"
+  }
+}

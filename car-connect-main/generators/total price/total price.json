@@ -1,0 +1,32 @@
+{
+  "name": "e51d451f-5df8-4989-a110-2fdb87d1e4da",
+  "displayName": "total price",
+  "placeholders": [ {
+    "id": "car_model",
+    "name": "car_model"
+  }, {
+    "id": "city",
+    "name": "city"
+  }, {
+    "id": "fuel_type",
+    "name": "fuel_type"
+  }, {
+    "id": "service",
+    "name": "service"
+  }, {
+    "id": "service_period",
+    "name": "service_period"
+  } ],
+  "modelParameter": {
+    "temperature": 0,
+    "maxDecodeSteps": 5832,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash-002"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

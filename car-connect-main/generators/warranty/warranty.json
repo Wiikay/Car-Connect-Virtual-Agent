@@ -1,0 +1,13 @@
+{
+  "name": "690da436-2c67-434b-b789-255030597965",
+  "displayName": "warranty",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.0-flash-001"
+  }
+}

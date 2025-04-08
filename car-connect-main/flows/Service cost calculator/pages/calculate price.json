@@ -1,0 +1,54 @@
+{
+  "name": "291d05a7-768d-4f85-a493-443afbfeb47b",
+  "displayName": "calculate price",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.price" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/efa9b868-7073-4634-9ed3-87eb41609c09",
+      "inputParameters": [ {
+        "key": "car_model",
+        "value": "$session.params.car_model"
+      }, {
+        "key": "city",
+        "value": "$session.params.city"
+      }, {
+        "key": "fuel_type",
+        "value": "$session.params.fuel_type"
+      }, {
+        "key": "name",
+        "value": "$session.params.name"
+      }, {
+        "key": "service",
+        "value": "$session.params.service"
+      }, {
+        "key": "service_period",
+        "value": "$session.params.service_period"
+      } ],
+      "outputParameter": "$request.generative.price"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Any Think Else",
+    "name": "4bb3ef35-39d9-4b9d-9d17-cffdb70613a6"
+  } ]
+}

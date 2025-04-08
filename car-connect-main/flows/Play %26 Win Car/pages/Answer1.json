@@ -1,0 +1,33 @@
+{
+  "name": "074ea934-f97e-4627-bedd-5e158c22c397",
+  "displayName": "Answer1",
+  "form": {
+    "parameters": [ {
+      "displayName": "Ans1",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "car-connect",
+      "tag": "play2",
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Answer2",
+    "name": "66204d8c-a31a-4774-b724-bd7f5774b677"
+  } ]
+}

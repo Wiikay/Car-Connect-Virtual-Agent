@@ -1,0 +1,27 @@
+{
+  "name": "50d29bc3-26cf-468d-b830-049cc735e6c3",
+  "displayName": "Ask for rating",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.rating" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    },
+    "generators": [ {
+      "generator": "projects/innate-lacing-450600-r5/locations/us-central1/agents/30ada13b-5731-433a-8b2b-336c30c9cfb8/generators/2aaf120b-e51f-4145-9cc4-076313cb0c89",
+      "outputParameter": "$request.generative.rating"
+    } ]
+  }
+}

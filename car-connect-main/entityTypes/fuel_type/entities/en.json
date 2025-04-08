@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "EV",
+    "synonyms": [ "all-electric", "battery electric", "BEV", "electric", "Electric", "electric-powered", "EV", "zero-emission" ],
+    "languageCode": "en"
+  }, {
+    "value": "CNG",
+    "synonyms": [ "Alternative fuel", "cng", "Cng", "CNG", "Compressed natural gas", "Methane", "Natural gas vehicle fuel", "NGV fuel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Petrol",
+    "synonyms": [ "petrol", "Petrol", "premium", "regular", "unleaded" ],
+    "languageCode": "en"
+  }, {
+    "value": "Diesel",
+    "synonyms": [ "automotive diesel", "compression-ignition fuel", "Diesel", "diesel fuel", "fuel oil", "gasoil", "heavy oil", "diesel" ],
+    "languageCode": "en"
+  } ]
+}

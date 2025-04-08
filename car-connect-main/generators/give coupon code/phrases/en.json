@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "based on user answer $Ans1 $Ans2 generate a 8 digit alpha numerical coupon code",
+    "languageCode": "en"
+  } ]
+}

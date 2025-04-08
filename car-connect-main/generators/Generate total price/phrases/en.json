@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Generate a structured service invoice  with the following parameters: Customer Name ($name), Car Model ($car_model), City ($city), Fuel Type ($fuel_type), Service Type ($service), and Service Period ($service_period). The invoice should include:\n\nA customer details section listing the customer's name, car model, city, fuel type, and service period.\n\nA table with columns for Service Description, Unit Price, Quantity, and Total Cost, ensuring proper alignment and readability also add labor cost. \n\nA totals section displaying the Subtotal, Applicable Taxes (e.g., GST 18%), and Final Total Cost in a structured format.\n\nEnsure that the table and all invoice elements are properly formatted, aligned, and displayed cleanly like a professional invoice. Do not include any unnecessary explanations or misaligned content—only return a well-structured invoice .",
+    "languageCode": "en"
+  } ]
+}
