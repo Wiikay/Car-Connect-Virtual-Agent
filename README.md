@@ -1,29 +1,24 @@
 # Car-Connect-Virtual-Agent
 
-# 🚗 Car Connect - Tata Motors Virtual Assistant 🤖
+# 🚗 Car Connect - Car Connect Virtual Assistant 🤖
 
-<div align="center">
-  
-![Tata Motors Logo](https://imgd.aeplcdn.com/600x600/ec/F2/68/12925/img/orig/Tata-Logo-26449.jpg?t=124826933&t=124826933)
-
-</div>
 
 ## 📋 Overview
 
-Car Connect is an interactive virtual assistant designed to enhance the customer experience for Tata Motors. This conversational AI agent helps users explore Tata's vehicle lineup, book test drives, schedule service appointments, find dealers, and more - all through a seamless, natural language interface.
+Car Connect is an interactive virtual assistant designed to enhance the customer experience for Tata Motors. This conversational AI agent helps users explore vehicle lineup, book test drives, schedule service appointments, find dealers, and more - all through a seamless, natural language interface.
 
 ## ✨ Key Features
 
 | Feature | Description | Benefit |
 |---------|-------------|---------|
-| 🚘 **Explore Cars** | Browse and learn about Tata's vehicle lineup | Informed purchase decisions |
+| 🚘 **Explore Cars** | Browse and learn about motor vehicle lineup | Informed purchase decisions |
 | 🔑 **Request Test Drive** | Schedule a test drive at your nearest dealership | Experience vehicles firsthand |
 | 🛒 **Buy Now** | Direct links to purchase vehicles | Streamlined buying process |
 | 🔧 **Explore Car Service** | Book appointments, calculate costs, access warranty info | Convenient maintenance management |
 | 📍 **Find Dealer** | Locate the nearest sales showroom or service workshop | Easy access to physical locations |
 | 📝 **Complaint and Feedback** | Submit complaints or provide feedback | Continuous service improvement |
 | 🎮 **Play & Win Car** | Interactive game with promotional offers | Engaging customer experience |
-| 📱 **My App** | Access Tata Motors mobile app (iOS/Android) | On-the-go account management |
+| 📱 **My App** | Access Motors mobile app (iOS/Android) | On-the-go account management |
 
 ## 🚙 Supported Vehicle Models
 
@@ -47,7 +42,7 @@ Car Connect is an interactive virtual assistant designed to enhance the customer
 ### Entity Types
 - **🔢 car_no**: Vehicle registration number recognition (format: XX00XX0000)
 - **⛽ fuel_type**: Supports EV, CNG, Petrol, and Diesel
-- **🚐 model**: Eight Tata models including Nexon, Safari, Harrier, Punch, etc.
+- **🚐 model**: Eight models including Nexon, Safari, Harrier, Punch, etc.
 - **⏱️ period**: Timeframe options (monthly, quarterly, yearly)
 - **📮 pin_code**: Indian postal code validation
 
